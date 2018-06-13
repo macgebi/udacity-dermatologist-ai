@@ -8,11 +8,11 @@ This repository doesn't include data set for training because images don't belon
 [https://isic-archive.com/#images](https://isic-archive.com/#images) 
 
 ## Network & Data
-  * Transfer learning using Inception Resnet V2
+  * Transfer learning using Inception Resnet V2<br>
     I thought the features of pre-trained network will be much different from those of medical images, so I tested network without pre-train, but its result wasn't good. So I applied transfer learning.
-  * No augmented images
+  * No augmented images<br>
     Tried vertical and horizontal flip images, but didn't apply to the result experiment because it didn't seem to improve accuracy or reduce loss.
-  * Image size
+  * Image size<br>
     I used 384 x 256 for target loading image size. Original image sizes are various from 1022 x 767 to 4288 x 2848. I wanted to use 1022 x 767 to save detail of image, but couldn't run on my computer, so I tested and reduced to 384 x 256.
 ## Evaluation
 ### Score
