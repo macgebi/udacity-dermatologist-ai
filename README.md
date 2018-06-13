@@ -14,7 +14,7 @@ This repository doesn't include data set for training because images don't belon
     Tried vertical and horizontal flip images, but didn't apply to the result experiment because it didn't seem to improve accuracy or reduce loss.
   * Image size
     I used 384 x 256 for target loading image size. Original image sizes are various from 1022 x 767 to 4288 x 2848. I wanted to use 1022 x 767 to save detail of image, but couldn't run on my computer, so I tested and reduced to 384 x 256.
-## Evaluation (ROC AUC)
+## Evaluation
 ### Score
 ```
 Category 1 Score: 0.759
